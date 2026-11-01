@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A welcoming place to pray, grow, and find your community. Visit Amani Islamic Center."
+    />
+    <meta name="theme-color" content="#f7f5ed" />
+    <title>Amani Islamic Center — A place to return</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Amani Islamic Center home">
+        <span class="brand-mark" aria-hidden="true">A</span>
+        <span class="brand-name">AMANI <span>ISLAMIC CENTER</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">Our community</a>
+        <a href="#prayer-times">Prayer times</a>
+        <a href="#gather">What’s happening</a>
+      </nav>
+      <a class="header-cta" href="#visit">Plan your visit <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A place to return</p>
+          <h1 id="hero-title">Rooted in faith.<br /><em>Open to all.</em></h1>
+          <p class="hero-description">
+            A little more peace in your day starts here. Come as you are, find your people, and
+            make room for what matters.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#visit">Come visit <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#prayer-times">Today’s prayer times <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="note-icon" aria-hidden="true">✳</span>
+            <p><strong>There’s a place for you here.</strong><br />Open hearts. Open doors. Every day.</p>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="A softly illuminated mosque under a crescent moon">
+          <div class="sky-glow"></div>
+          <span class="hero-crescent" aria-hidden="true">☾</span>
+          <div class="scene-label"><span></span> PEACE BE UPON YOU</div>
+          <svg class="mosque-illustration" viewBox="0 0 960 650" aria-hidden="true">
+            <defs>
+              <linearGradient id="mosque-stone" x1="185" y1="350" x2="775" y2="560" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#a6a98f" />
+                <stop offset=".26" stop-color="#e8e1ca" />
+                <stop offset=".72" stop-color="#d8d2bb" />
+                <stop offset="1" stop-color="#9ca589" />
+              </linearGradient>
+              <linearGradient id="mosque-dome-gradient" x1="350" y1="155" x2="650" y2="340" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#9ea88a" />
+                <stop offset=".42" stop-color="#e5d9b4" />
+                <stop offset=".76" stop-color="#bdc09a" />
+                <stop offset="1" stop-color="#839279" />
+              </linearGradient>
+              <linearGradient id="mosque-gold" x1="0" y1="0" x2="1" y2="1">
+                <stop stop-color="#ead6a0" />
+                <stop offset=".55" stop-color="#c4a66a" />
+                <stop offset="1" stop-color="#9d8050" />
+              </linearGradient>
+              <linearGradient id="mosque-door" x1="480" y1="385" x2="480" y2="560" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#355344" />
+                <stop offset="1" stop-color="#19352b" />
+              </linearGradient>
+              <radialGradient id="mosque-dome-light" cx="0" cy="0" r="1" gradientTransform="matrix(150 120 -105 130 420 190)" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#fff1cc" stop-opacity=".5" />
+                <stop offset="1" stop-color="#fff1cc" stop-opacity="0" />
+              </radialGradient>
+              <filter id="mosque-shadow" x="90" y="100" width="780" height="520" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                <feGaussianBlur stdDeviation="12" />
+              </filter>
+            </defs>
+
+
+            <g fill="url(#mosque-stone)" stroke="#eee4cb" stroke-opacity=".48">
+              <path d="M111 554V216l20-72 20 72v338h-40Z" />
+              <path d="M809 554V216l20-72 20 72v338h-40Z" />
+            </g>
+            <g fill="#abb092">
+              <path d="m131 128 14 52h-28l14-52Zm698 0 14 52h-28l14-52Z" />
+            </g>
+            <g fill="url(#mosque-gold)">
+              <path d="M103 207h56v7h-56zm-5 12h66v7H98zm703-12h56v7h-56zm-5 12h66v7h-66z" />
+              <path d="M105 546h53v15h-53zm702 0h53v15h-53z" />
+            </g>
+            <g stroke="#eee4cb" stroke-opacity=".28">
+              <path d="M112 251h39m-39 15h39m-39 15h39m-39 15h39M810 251h39m-39 15h39m-39 15h39m-39 15h39" />
+            </g>
+            <g fill="#31483a">
+              <path d="M128 263h7v25h-7zm698 0h7v25h-7z" />
+            </g>
+            <g fill="url(#mosque-gold)">
+              <path d="M131 128c-8-10-8-21 0-31 8 10 8 21 0 31Z" />
+              <path d="M829 128c-8-10-8-21 0-31 8 10 8 21 0 31Z" />
+            </g>
+
+            <path d="M185 344h590v214H185z" fill="url(#mosque-stone)" stroke="#f2e7cc" stroke-opacity=".5" />
+            <path d="M176 334h608v15H176z" fill="#a99668" />
+            <path d="M176 331h608v6H176z" fill="url(#mosque-gold)" />
+            <path d="M193 355h574v3H193z" fill="#f4ebd5" fill-opacity=".56" />
+            <path d="M243 368v180m96-180v180m282-180v180m96-180v180" stroke="#f4ebd5" stroke-opacity=".26" />
+            <path d="M228 359h10v8h-10zm114 0h10v8h-10zm266 0h10v8h-10zm114 0h10v8h-10z" fill="url(#mosque-gold)" />
+
+            <g fill="#30483a" stroke="url(#mosque-gold)" stroke-width="4">
+              <path d="M266 558v-71c0-34 22-57 51-57s51 23 51 57v71" />
+              <path d="M592 558v-71c0-34 22-57 51-57s51 23 51 57v71" />
+            </g>
+            <g fill="none" stroke="#83917b" stroke-opacity=".42">
+              <path d="M279 478c3-23 17-36 38-36s35 13 38 36m250 0c3-23 17-36 38-36s35 13 38 36" />
+            </g>
+
+            <path d="M407 560V405c0-44 31-75 73-75s73 31 73 75v155" fill="#a78c56" />
+            <path d="M415 560V405c0-38 27-66 65-66s65 28 65 66v155" fill="url(#mosque-door)" stroke="#f2dfad" stroke-opacity=".82" stroke-width="2" />
+            <path d="M428 560V406c0-30 22-53 52-53s52 23 52 53v154" fill="none" stroke="#cbb47d" stroke-opacity=".34" />
+            <path d="M439 400c4-27 21-42 41-42s37 15 41 42" fill="none" stroke="#94a28a" stroke-opacity=".38" />
+
+            <path d="M185 546h590v13H185z" fill="#849078" />
+            <path d="M174 558h612v14H174z" fill="#b39b64" />
+            <path d="M166 571h628v9H166z" fill="#213a2d" />
+            <path d="M190 586h580" stroke="#e4d3aa" stroke-opacity=".18" />
+
+            <g fill="#aaad8f" stroke="#d8c99f" stroke-opacity=".55">
+              <path d="M358 344v-39h244v39z" />
+              <path d="M272 284c9-17 20-33 33-44 12-10 25-16 40-18 15 2 28 8 40 18 13 11 24 27 33 44-20 10-45 15-73 15s-53-5-73-15Z" />
+              <path d="M542 284c9-17 20-33 33-44 12-10 25-16 40-18 15 2 28 8 40 18 13 11 24 27 33 44-20 10-45 15-73 15s-53-5-73-15Z" />
+            </g>
+            <path d="M358 303h244v8H358z" fill="url(#mosque-gold)" />
+            <g fill="none" stroke="#f2e8d0" stroke-opacity=".58" stroke-width="2">
+              <path d="M382 330v-18a13 13 0 0 1 26 0v18m27 0v-18a13 13 0 0 1 26 0v18m27 0v-18a13 13 0 0 1 26 0v18m27 0v-18a13 13 0 0 1 26 0v18" />
+            </g>
+
+            <g id="mosque-dome" transform="translate(140 95) scale(.72)">
+              <path d="M336 339c17-24 30-55 42-89 13-37 29-71 51-98 24-29 54-49 91-58 37 9 67 29 91 58 22 27 38 61 51 98 12 34 25 65 42 89-41 17-102 26-184 26s-143-9-184-26Z" fill="#132b22" fill-opacity=".2" transform="translate(0 6)" />
+              <path d="M336 339c17-24 30-55 42-89 13-37 29-71 51-98 24-29 54-49 91-58 37 9 67 29 91 58 22 27 38 61 51 98 12 34 25 65 42 89-41 17-102 26-184 26s-143-9-184-26Z" fill="url(#mosque-dome-gradient)" stroke="#eee3c6" stroke-opacity=".74" stroke-width="2" />
+              <path d="M352 329c18-34 31-67 43-101 19-53 54-101 117-127-37 9-67 29-91 58-22 27-38 61-51 98-12 34-25 65-42 89 17 8 38 14 61 19-15-9-28-20-37-36Z" fill="url(#mosque-dome-light)" />
+              <path d="M500 126c-16-9-19-32-4-49-8 19 1 39 18 43-4 4-9 6-14 6Zm0-32V82" fill="url(#mosque-gold)" stroke="url(#mosque-gold)" stroke-linecap="round" stroke-width="3" />
+              <circle cx="500" cy="79" r="3" fill="#dec58b" />
+              <path d="M378 328c34 12 75 18 122 18s88-6 122-18" fill="none" stroke="#fff4d6" stroke-opacity=".3" />
+            </g>
+
+            <g fill="#d9c99d" fill-opacity=".72">
+              <path d="m289 396 4 4-4 4-4-4 4-4Zm382 0 4 4-4 4-4-4 4-4Z" />
+              <circle cx="480" cy="323" r="2" />
+              <circle cx="520" cy="323" r="2" />
+            </g>
+          </svg>
+          <canvas id="mosque-scene" aria-hidden="true"></canvas>
+          <div class="hero-art-caption"><span>01</span><span>A sanctuary for every season.</span></div>
+        </div>
+        <div class="hero-index" aria-hidden="true">EST. 1998 <span>·</span> YOUR NEIGHBORHOOD MOSQUE</div>
+      </section>
+
+      <section class="prayer-strip" id="prayer-times" aria-labelledby="prayer-title">
+        <div class="prayer-intro">
+          <span class="section-kicker">MAKE SPACE FOR STILLNESS</span>
+          <h2 id="prayer-title">A moment, five times a day.</h2>
+        </div>
+        <div class="prayer-times">
+          <div class="prayer-time"><span>Fajr</span><strong>5:18 <small>AM</small></strong></div>
+          <div class="prayer-time"><span>Dhuhr</span><strong>1:12 <small>PM</small></strong></div>
+          <div class="prayer-time current"><span>Asr <i>UP NEXT</i></span><strong>4:46 <small>PM</small></strong></div>
+          <div class="prayer-time"><span>Maghrib</span><strong>7:31 <small>PM</small></strong></div>
+          <div class="prayer-time"><span>Isha</span><strong>9:02 <small>PM</small></strong></div>
+        </div>
+        <a class="prayer-link" href="#visit" aria-label="View all prayer times">↗</a>
+      </section>
+
+      <section class="welcome-section" id="about">
+        <div class="welcome-image" role="img" aria-label="Sunlight falling across a quiet mosque courtyard">
+          <div class="image-arch arch-one"></div>
+          <div class="image-arch arch-two"></div>
+          <div class="image-sun"></div>
+          <div class="image-caption"><span>THE COURTYARD</span><span>OPEN DAILY, FROM DAWN</span></div>
+        </div>
+        <div class="welcome-copy">
+          <span class="section-kicker">MORE THAN A PLACE TO PRAY</span>
+          <h2>Faith feels a little closer <em>together.</em></h2>
+          <p>
+            Amani is your neighborhood home for worship, learning, and the everyday moments in
+            between. Whether it’s your first visit or your five-hundredth, you belong here.
+          </p>
+          <a class="underlined-link" href="#visit">Get to know us <span aria-hidden="true">↗</span></a>
+          <div class="welcome-stat"><strong>25+</strong><span>years growing<br />together</span></div>
+        </div>
+      </section>
+
+      <section class="gather-section" id="gather">
+        <div class="gather-heading">
+          <div>
+            <span class="section-kicker">COME AS YOU ARE</span>
+            <h2>There’s always something <em>good growing.</em></h2>
+          </div>
+          <a class="underlined-link" href="#visit">Explore the community <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="gather-cards">
+          <article class="gather-card card-learning">
+            <span class="card-number">01 / LEARN</span>
+            <div class="card-symbol" aria-hidden="true">✳</div>
+            <h3>Room to grow.</h3>
+            <p>Thoughtful classes and circles for every age and every chapter.</p>
+            <a href="#visit" aria-label="Learn about classes and learning">↗</a>
+          </article>
+          <article class="gather-card card-community">
+            <span class="card-number">02 / CONNECT</span>
+            <div class="card-symbol" aria-hidden="true">◌</div>
+            <h3>People who get you.</h3>
+            <p>Good conversations, shared tables, and a community that shows up.</p>
+            <a href="#visit" aria-label="Learn about community events">↗</a>
+          </article>
+          <article class="gather-card card-give">
+            <span class="card-number">03 / GIVE</span>
+            <div class="card-symbol" aria-hidden="true">♡</div>
+            <h3>Good that goes further.</h3>
+            <p>Small acts of care, made stronger when we do them together.</p>
+            <a href="#visit" aria-label="Learn about giving and volunteering">↗</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="visit-section" id="visit">
+        <div>
+          <span class="section-kicker">YOUR DOOR IS OPEN</span>
+          <h2>We’ll save you<br /><em>a little peace.</em></h2>
+        </div>
+        <div class="visit-details">
+          <p>First time at Amani? We’d love to show you around. Come for a prayer, stay for a cup of tea.</p>
+          <a class="button button-dark" href="mailto:hello@amanicenter.org">Plan your first visit <span aria-hidden="true">↗</span></a>
+          <div class="visit-location">
+            <address class="address" id="center-address">1427 Willow Creek Road, Brookfield</address>
+            <div class="location-actions">
+              <button
+                class="location-action"
+                id="copy-address"
+                type="button"
+                aria-describedby="copy-address-status"
+              >Copy address</button>
+              <a
+                class="location-action"
+                href="https://www.google.com/maps/search/?api=1&amp;query=1427%20Willow%20Creek%20Road%2C%20Brookfield"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Get directions <span aria-hidden="true">↗</span></a>
+            </div>
+            <span class="address-hours">Open daily · All are welcome</span>
+            <span class="copy-address-status" id="copy-address-status" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+        <span class="visit-decoration" aria-hidden="true">A</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#" aria-label="Amani Islamic Center home">
+        <span class="brand-mark" aria-hidden="true">A</span>
+        <span class="brand-name">AMANI <span>ISLAMIC CENTER</span></span>
+      </a>
+      <p>May you find what your heart is looking for.</p>
+      <span>© <span id="copyright-year"></span> Amani Islamic Center</span>
+    </footer>
+  </body>
+</html>

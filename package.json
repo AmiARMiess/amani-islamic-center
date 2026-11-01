@@ -1,0 +1,17 @@
+{
+  "name": "amani-islamic-center",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Amani Islamic Center landing page",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "0.166.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  }
+}
